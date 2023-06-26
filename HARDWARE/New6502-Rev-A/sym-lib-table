@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Neo6502_Rev_A-rescue")(type "KiCad")(uri "${KIPRJMOD}/Neo6502_Rev_A-rescue.kicad_sym")(options "")(descr ""))
+)
