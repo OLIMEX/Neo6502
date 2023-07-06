@@ -1,0 +1,71 @@
+### board.txt 2023/05/01
+
+# build and lib search property - aggressive build, search and cache examples
+# altering these defaults might require a rebuild after changing some underlying files.
+#
+
+# ############################
+# build core files in parallel
+# ############################
+
+# the vMicro parallel build setting can be off yet this property will enable parallel build of cores
+# the default is false
+#
+builder.core.parallel_build=true
+
+
+# ################################
+# compile of temp\project_name.cpp
+# ################################
+
+# prevent ino code > temp/project_name.cpp from being compiled unless it, a dependency or board options have changed
+# the default is false. the Arduino ide always rebuilds the file.
+#
+vm.build.sketch.cpp-use-build-cache=true
+
+
+## ####################
+## search for libraries
+## ####################
+
+# only search for 'libs in libs' in each library root (or library \src folder for vs libs)
+# the default is 'all', which matches the functionality of the current arduino ide.
+# switch off looking for 'libraries in libraries' by setting this property to 'none' (recommended !!)
+#
+# vm.preproc.lib-search.lib-in-lib=all
+vm.preproc.lib-search.lib-in-lib=top-level
+# vm.preproc.lib-search.lib-in-lib=none
+
+
+# deep search over project source?
+# the default is all which matches the arduino ide
+# if all #includes are in .ino code then use 'ino-code-only'
+#
+# vm.preproc.lib-search.lib-in-sketch=all
+# vm.preproc.lib-search.lib-in-sketch=root
+vm.preproc.lib-search.lib-in-sketch=root-and-src
+# vm.preproc.lib-search.lib-in-sketch=ino-code-only
+
+
+# search the temp/project_name.cpp only if it has changed (or a dependency or board option has changed)
+#  the Arduino ide always rescans the project_name.cpp for libraries,
+#  this property defaults to false to match the current Arduino ide
+#
+vm.preproc.sketch.cpp-datetime-use-cache=true
+
+
+# deep search uses file of original temp/projet_name.cpp, instead of the one in the build folder that is always recreated. this voids the project_name.cpp from being deep searched always, regardless of normal cache determination.
+# the default is false, less efficient but matches the current Arduino ide.
+#
+vm.preproc.lib-search.ino-cache=true
+
+
+# ####################
+# prototype generation
+# ####################
+
+# use previous gcc results, if available and the sketch ino code has not changed
+# default is true, the most efficient setting. 
+# do not switch off without good reason.
+#
+vm.ctags.cache.gcc-e=true
