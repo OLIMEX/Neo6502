@@ -3,8 +3,14 @@ This is work in progress preliminary info
 
 6502 firmware:
 
-http://www.robsons.org.uk/neo6502/
+http://www.robsons.org.uk/neo6502/ 
+https://github.com/paulscottrobson/neo6502
 
+Arduino project with BBC BASIC: https://github.com/marobi/Pico_6502_v4
+======================================================================
+
+Same project ported to PlatformIO: https://github.com/astralaster/Pico_6502_v4_platformio
+=========================================================================================
 
 Neo6502 hardware check:
 
@@ -29,7 +35,7 @@ static const struct dvi_serialiser_cfg pico_neo6502_cfg = {
 	.invert_diffpairs = true
 };
 
-Keyboard uses ps2pico https://github.com/No0ne/ps2pico
+Keyboard uses ps2xpico https://github.com/No0ne/ps2x2pico
 ======================================================
 CLK IN OUT DTA IN OUT are changed to be on free GPIOs used in UEXT
 
