@@ -1,10 +1,8 @@
 This is work in progress preliminary info
 
 
-6502 firmware:
-
-http://www.robsons.org.uk/neo6502/ 
-https://github.com/paulscottrobson/neo6502
+6502 firmware: http://www.robsons.org.uk/neo6502/ https://github.com/paulscottrobson/neo6502
+============================================================================================
 
 Arduino project with BBC BASIC: https://github.com/marobi/Pico_6502_v4
 ======================================================================
