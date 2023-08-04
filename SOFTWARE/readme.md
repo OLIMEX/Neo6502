@@ -33,10 +33,10 @@ static const struct dvi_serialiser_cfg pico_neo6502_cfg = {
 	.invert_diffpairs = true
 };
 
-Keyboard uses usb2serial which is based on https://github.com/No0ne/ps2pico
+Keyboard and mouse uses usb2serial https://github.com/OLIMEX/usb2serial
 =======
+usb2serial is based on which is based on https://github.com/No0ne/ps2x2pico
 Keyboard or/and mouse can be connected to Neo6502 and if DEBUG is set it will stream on the SERUAL port the received Keyboard and Mouse data
-https://github.com/OLIMEX/usb2serial
 
 UEXT is tested with python code
 ===============================
