@@ -29,9 +29,9 @@ static const struct dvi_serialiser_cfg pico_neo6502_cfg = {
 	.invert_diffpairs = true
 };
 
-Keyboard uses ps2pico https://github.com/No0ne/ps2pico
+Keyboard uses usb2serial which is based on https://github.com/No0ne/ps2pico
 ======================================================
-CLK IN OUT DTA IN OUT are changed to be on free GPIOs used in UEXT
+Keyboard or/and mouse can be connected to Neo6502 and if DEBUG is set it will stream on the SERUAL port the received Keyboard and Mouse data
 
 UEXT is tested with python code
 ===============================
