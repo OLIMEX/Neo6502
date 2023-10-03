@@ -1,3 +1,0 @@
-(sym_lib_table
- (lib (name Neo6502_Rev_A)(type Legacy)(uri ${KIPRJMOD}/Neo6502_Rev_A.lib)(options "")(descr ""))
-)
