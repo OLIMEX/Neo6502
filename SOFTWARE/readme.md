@@ -1,5 +1,6 @@
-This is work in progress preliminary info
 
+Apple ][ and Oric Atmos emulators: https://github.com/vsladkov/reload-emulator
+==============================================================================
 
 6502 firmware: http://www.robsons.org.uk/neo6502/ https://github.com/paulscottrobson/neo6502
 ============================================================================================
