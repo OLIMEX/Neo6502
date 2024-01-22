@@ -2,7 +2,7 @@
 Apple ][ and Oric Atmos emulators: https://github.com/vsladkov/reload-emulator
 ==============================================================================
 
-6502 firmware: http://www.robsons.org.uk/neo6502/ https://github.com/paulscottrobson/neo6502
+6502 firmware: https://github.com/paulscottrobson/neo6502-firmware
 ============================================================================================
 
 Arduino project with BBC BASIC: https://github.com/marobi/Pico_6502_v4
