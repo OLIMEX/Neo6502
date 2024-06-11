@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Neo6502_Rev_B1)(type Legacy)(uri ${KIPRJMOD}/Neo6502_Rev_B.lib)(options "")(descr ""))
+  (lib (name Neo6502_Rev_B1-rescue)(type Legacy)(uri ${KIPRJMOD}/Neo6502_Rev_B1-rescue.lib)(options "")(descr ""))
+)
