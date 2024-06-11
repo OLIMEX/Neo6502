@@ -1,4 +1,4 @@
-Contains hardware design file for Olimex Neo6502
+Contains hardware design files for Olimex Neo6502
 
 Board was designed with free Open Source CAD software - KiCAD, if you have trouble opening the design files use newest KiCAD version.
 
